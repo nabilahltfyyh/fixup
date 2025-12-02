@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Corporate Website",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Cart Jasa",
+      "use": "@vercel/static"
+    }
+  ]
+}
