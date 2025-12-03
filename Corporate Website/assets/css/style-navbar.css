@@ -66,16 +66,18 @@ body {
 }
 
 .navbar .btn {
-  background-color: #3299edda;
-  color: #ffffff;
+  background-color: var(--primary1);
+  transition: background-color 0.3s ease;
+  color: #fff;
 }
 
 /* Hover untuk tombol */
 .navbar .btn:hover {
-  background-color: var(--primary1) !important; /* warna background saat hover */
+  background-color: var(--primary2) !important; /* warna background saat hover */
   color: #fff !important; /* warna teks saat hover */
 }
 
 #offcanvasNavbar {
   background-color: #fff;
 }
+
