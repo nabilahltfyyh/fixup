@@ -556,4 +556,11 @@ h3.fw-bold {
   font-size: 15px;
 }
 
+/* Responsive */
+@media (max-width: 992px) {
+  .alasan-pilih-section {
+    font-size: 85%;
+  }
+}
 /* END ALASAN PILIH */
+
